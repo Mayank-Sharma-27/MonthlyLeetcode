@@ -1,5 +1,7 @@
 package day7;
 
+import lombok.Data;
+
 import java.util.*;
 
 public class Day7 {
@@ -21,6 +23,7 @@ public class Day7 {
         return keys.get(R.nextInt(keys.size())).val;
     }
 
+    @Data
     public class ListNode {
         int val;
         ListNode next;
