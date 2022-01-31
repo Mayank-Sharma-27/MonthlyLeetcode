@@ -1,5 +1,7 @@
 package day11;
 
+import lombok.Data;
+
 public class Day11 {
 
 
@@ -36,6 +38,7 @@ public class Day11 {
 
     }
 
+    @Data
     public class TreeNode {
         int val;
         TreeNode left;
